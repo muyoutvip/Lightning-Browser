@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright 2014 A.C.R. Development -->
-<manifest
-    package="acr.browser.lightning"
+<manifest xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.browser"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:installLocation="auto">
 
@@ -13,7 +13,9 @@
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
     <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
-
+    <!--<uses-permission android:name="android.permission.GET_TASKS" />-->
+    <!--<uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>-->
+    <!--<uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>-->
     <uses-feature
         android:name="android.hardware.location.gps"
         android:required="false"/>
@@ -25,24 +27,24 @@
         android:required="false"/>
 
     <application
-        android:name=".app.BrowserApp"
+        android:name="com.android.browser.app.BrowserApp"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name">
+        android:icon="@mipmap/d_browser"
+        android:label="@string/app_name"
+        tools:replace="android:label">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.android.browser.BrowserActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
-            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:theme="@style/Theme.LightTheme"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustResize"
+            >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <category android:name="android.intent.category.APP_BROWSER"/>
             </intent-filter>
@@ -115,7 +117,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.SettingsActivity"
+            android:name="com.android.browser.activity.SettingsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
             android:label="@string/settings"
             android:theme="@style/Theme.SettingsTheme">
@@ -126,7 +128,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.IncognitoActivity"
+            android:name="com.android.browser.IncognitoTwoActivity"
             android:alwaysRetainTaskState="true"
             android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
             android:label="@string/app_name"
@@ -140,7 +142,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.ReadingActivity"
+            android:name="com.android.browser.activity.ReadingActivity"
             android:configChanges="orientation|screenSize|keyboardHidden|keyboard"
             android:label="@string/reading_mode"
             android:theme="@style/Theme.SettingsTheme">
@@ -150,6 +152,21 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="W_N_HY18_xm_0330" />
+        <meta-data
+            android:name="MUYOU_CHANNEL"
+            android:value="W_N_HY18_xm_0330" />
+        <meta-data
+            android:name="TD_CHANNEL_ID"
+            android:value="W_N_HY18_xm_0330" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="579b07e267e58e54eb0009fb" />
+        <meta-data
+            android:name="TD_APP_ID"
+            android:value="8EFC5B1ED17946C0AD6CDC075E52EA2F" />
     </application>
 
 </manifest>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Browser</string>
+    <string name="app_chrome_name">Krom</string>
+    <string name="action_new_tab">Tab baru</string>
+    <string name="action_share">Kongsi</string>
+    <string name="action_history">Sejarah</string>
+    <string name="action_bookmarks">Bookmarks</string>
+    <string name="action_add_bookmark">menambah Bookmark</string>
+    <string name="action_copy">Salin pautan</string>
+    <string name="action_forward">ke hadapan</string>
+    <string name="settings">tetapan</string>
+    <string name="location">Akses lokasi</string>
+    <string name="password">Simpan kata laluan anda</string>
+    <string name="agent">Ejen pengguna</string>
+    <string name="flash">Membolehkan Adobe Flash</string>
+    <string name="home">Homepage</string>
+    <string name="fullscreen">Mod skrin penuh</string>
+    <string name="java">membenarkan JavaScript</string>
+    <string name="download">Lokasi muat turun</string>
+    <string name="settings_advanced">Tetapan lanjutan</string>
+    <string name="apache">Apache Lesen 2.0</string>
+    <string name="version">Versi permohonan</string>
+    <string name="cache">cache jelas apabila keluar</string>
+    <string name="reflow">Membolehkan reflow teks</string>
+    <string name="block">Block Images</string>
+    <string name="window">Benarkan tapak membuka tetingkap baru</string>
+    <string name="cookies">membolehkan Cookies</string>
+    <string name="importbookmarks">Import bookmarks from browser</string>
+    <string name="size">saiz teks</string>
+    <string name="recommended">disyorkan</string>
+    <string name="search">Enjin carian</string>
+    <string name="search_hint">carian</string>
+    <string name="wideViewPort">Gunakan viewport luas</string>
+    <string name="overViewMode">halaman beban dalam mod gambaran keseluruhan</string>
+    <string name="restore">Memulihkan hilang tab pada permulaan</string>
+    <string name="supported_browsers_title">Pelayar disokong</string>
+    <string name="stock_browser">Pelayar saham</string>
+    <string name="stock_browser_unavailable">Tiada penyemak imbas saham dikesan</string>
+    <string name="stock_browser_available">pelayar saham disokong dikesan</string>
+    <string name="fullScreenOption">Menyembunyikan bar status semasa menyemak imbas</string>
+    <string name="clear_cookies">Cookies jelas Browser</string>
+    <string name="clear_history">Sejarah Browser jelas</string>
+    <string name="dialog_image">Apa yang anda suka lakukan dengan imej ini?</string>
+    <string name="action_download">muat turun</string>
+    <string name="action_open">Buka</string>
+    <string name="dialog_link">Apa yang anda suka lakukan dengan link ini?</string>
+    <string name="dialog_title_share">Kongsi halaman ini</string>
+    <string name="dialog_history_long_press">Apa yang anda suka lakukan dengan item sejarah ini?</string>
+    <string name="dialog_bookmark">Apa yang anda suka lakukan dengan penanda buku ini?</string>
+    <string name="action_delete">Padam</string>
+    <string name="action_blank">Halaman kosong</string>
+    <string name="agent_default">lalai</string>
+    <string name="agent_desktop">Desktop</string>
+    <string name="agent_mobile">mudah alih</string>
+    <string name="agent_custom">Custom</string>
+    <string name="title_search_engine">Enjin carian</string>
+    <string name="action_ok">okey</string>
+    <string name="dialog_download">Adakah anda ingin memuat turun fail ini?</string>
+    <string name="action_cancel">Batal</string>
+    <string name="title_warning">Amaran</string>
+    <string name="dialog_adobe_not_installed">Adobe Flash Player tidak dikesan. \ Sila pasang Flash Player.</string>
+    <string name="title_user_agent">Ejen pengguna</string>
+    <string name="title_download_location">Lokasi muat turun</string>
+    <string name="title_custom_homepage">Homepage Custom</string>
+    <string name="action_webpage">Webpage</string>
+    <string name="title_clear_history">Sejarah jelas</string>
+    <string name="title_clear_cookies">Cookies jelas</string>
+    <string name="dialog_history">Adakah anda ingin untuk membersihkan semua sejarah penyemak imbas?</string>
+    <string name="dialog_cookies">Adakah anda ingin mengosongkan semua kuki penyemak imbas?</string>
+    <string name="action_yes">Ya</string>
+    <string name="action_no">Tiada</string>
+    <string name="title_text_size">Saiz teks</string>
+    <string name="size_largest">terbesar</string>
+    <string name="size_large">besar</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">kecil</string>
+    <string name="size_smallest">terkecil</string>
+    <string name="title_error">ralat</string>
+    <string name="dialog_import_error">Tiada penyemak imbas dikesan untuk mengimport penanda buku daripada.</string>
+    <string name="hint_title">tajuk</string>
+    <string name="hint_url">URL</string>
+    <string name="title_edit_bookmark">Edit Bookmark</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_incognito">New Incognito Tab</string>
+    <string name="action_homepage">lalai</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_find">Cari di dalam Page</string>
+    <string name="download_pending">Memulakan muat turun \ u2026</string>
+    <string name="cannot_download">hanya boleh memuat turun \ "http \" atau \ "https \" URL.</string>
+    <string name="problem_download">URL tidak sah yang dihadapi, tidak boleh memuat turun</string>
+    <string name="problem_location_download">Tidak dapat memuat turun ke lokasi yang dinyatakan</string>
+    <string name="download_no_sdcard_dlg_title">Tiada kad SD</string>
+    <string name="download_no_sdcard_dlg_msg">storan USB diperlukan untuk memuat turun fail.</string>
+    <string name="download_sdcard_busy_dlg_title">storan USB tersedia</string>
+    <string name="download_sdcard_busy_dlg_msg">penyimpanan sibuk. Untuk membenarkan muat turun, sentuh Matikan Storan USB dalam pemberitahuan itu.</string>
+    <string name="incognito_cookies">Membolehkan Cookies dalam Mod Incognito</string>
+    <string name="title_flash">Adobe Flash</string>
+    <string name="action_manual">Manual</string>
+    <string name="action_auto">Auto</string>
+    <string name="action_follow_me">Hubungi saya</string>
+    <string name="url_twitter">twitter.com/RestainoAnthony</string>
+    <string name="clear_cache">Kosongkan cache</string>
+    <string name="message_cache_cleared">cache dipadam bersih</string>
+    <string name="message_import">Bookmarks diimport</string>
+    <string name="message_clear_history">Sejarah dipadam bersih</string>
+    <string name="message_cookies_cleared">cookies dipadam bersih</string>
+    <string name="max_tabs">Max Tabs Mencapai</string>
+    <string name="message_text_copied">Teks disalin ke papan keratan</string>
+    <string name="message_link_copied">Pautan disalin ke papan keratan</string>
+    <string name="custom_url">URL Custom</string>
+    <string name="message_blocked_local">fail tempatan telah disekat daripada loading</string>
+    <string name="licenses">Lesen Sumber Terbuka</string>
+    <string name="suggestion">Carian untuk</string>
+    <string name="block_ads">blok iklan</string>
+    <string name="message_insecure_connection">Sambungan kepada laman web ini tidak selamat: \ n% 1 $ s \ nProceed anyway?</string>
+    <string name="message_certificate_date_invalid">tarikh perakuan tidak sah</string>
+    <string name="message_certificate_expired">sijil tamat tempoh</string>
+    <string name="message_certificate_domain_mismatch">domain dalam sijil tidak sepadan domain laman</string>
+    <string name="message_certificate_invalid">sijil tidak sah</string>
+    <string name="message_certificate_not_yet_valid">Sijil belum sah</string>
+    <string name="message_certificate_untrusted">sijil tidak dipercayai</string>
+    <string name="title_form_resubmission">Penyerahan Semula borang</string>
+    <string name="message_form_resubmission">Adakah anda ingin menghantar semula data?</string>
+    <string name="message_location">\ Mahu menggunakan lokasi anda</string>
+    <string name="action_allow">membolehkan</string>
+    <string name="action_dont_allow">Don \'t Benarkan</string>
+    <string name="title_sign_in">log Masuk</string>
+    <string name="hint_username">Nama pengguna</string>
+    <string name="hint_password">kata laluan</string>
+    <string name="search_suggestions">carian Cadangan</string>
+    <string name="powered_by_google">Dikuasakan oleh Google</string>
+    <string name="powered_by_duck">Dikuasakan oleh DuckDuckGo</string>
+    <string name="search_suggestions_off">Tiada cadangan carian</string>
+    <string name="http_proxy">HTTP Proxy</string>
+    <string-array name="proxy_choices_array">
+        <item>Tiada</item>
+        <item>Orbot</item>
+        <item>I2P</item>
+        <item>manual</item>
+    </string-array>
+    <string name="manual_proxy">manual proksi</string>
+    <string name="host">Host:</string>
+    <string name="port">Port:</string>
+    <string name="use_tor_prompt">Nampaknya anda telah Orbot dipasang. Adakah anda mahu menggunakan Tor?</string>
+    <string name="use_i2p_prompt">Nampaknya anda telah I2P dipasang. Adakah anda mahu menggunakan I2P?</string>
+    <string name="install_orbot">Sila pasang Orbot untuk proksi dengan Tor.</string>
+    <string name="i2p_not_running">I2P tidak berjalan.</string>
+    <string name="i2p_tunnels_not_ready">I2P terowong tidak bersedia lagi.</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tiada</string>
+    <string name="clear_cookies_exit">Kosongkan kuki apabila keluar</string>
+    <string name="clear_history_exit">Sejarah jelas apabila keluar</string>
+    <string name="folder_default">lalai</string>
+    <string name="folder_custom">Custom</string>
+    <string name="untitled">Untitled</string>
+    <string name="mpl_license">Lesen Awam Mozilla v. 2.0</string>
+    <string name="freeware">Freeware</string>
+    <string name="android_open_source_project">Projek Android Open Source</string>
+    <string name="hphosts_ad_server_list">Senarai hpHosts Ad Server</string>
+    <string name="deleted_tab">tab lama dibuka semula</string>
+    <string name="rendering_mode">Mod rendering</string>
+    <string name="name_inverted">terbalik</string>
+    <string name="name_grayscale">skala kelabu</string>
+    <string name="name_inverted_grayscale">Skala Kelabu terbalik</string>
+    <string name="name_increase_contrast">meningkatkan kontras</string>
+    <string name="name_normal">normal</string>
+    <string name="sync_history">Menyegerakkan sejarah dengan Google</string>
+    <string name="title_file_chooser">Pemilih fail</string>
+    <string name="library_netcipher">NetCipher</string>
+    <string name="license_gnu">Lemah GNU Lesen Awam Am</string>
+    <string name="export_bookmarks">Eksport tanda laman kepada sandaran</string>
+    <string name="import_backup">Export bookmarks to backup</string>
+    <string name="bookmark_export_path">Bookmarks dieksport ke</string>
+    <string name="bookmark_settings">Tetapan Bookmark</string>
+    <string name="import_bookmark_error">Tidak dapat mengimport penanda buku dari fail</string>
+    <string name="title_chooser">Pilih fail</string>
+    <string name="settings_general">Tetapan umum</string>
+    <string name="settings_display">Tetapan paparan</string>
+    <string name="settings_privacy">Tetapan privasi</string>
+    <string name="settings_about">mengenai</string>
+    <string name="settings_about_explain">Butiran mengenai versi, pengarang dan lesen.</string>
+    <string name="close_tab">tab semasa Tutup</string>
+    <string name="close_all_tabs">Menutup semua tab</string>
+    <string name="close_other_tabs">Tutup tab lain</string>
+    <string name="third_party">Cookies blok Pihak Ke-3</string>
+    <string name="color_mode">Membolehkan Mod Warna</string>
+    <string name="reading_mode">Mod Reader</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="loading_failed">Tidak boleh \'t beban apa-apa dari halaman.</string>
+    <string name="snacktory">Snacktory</string>
+    <string name="jsoup">jsoup: Java HTML Parser</string>
+    <string name="mit_license">Lesen MIT</string>
+    <string name="url_contents">URL kandungan kotak</string>
+    <string name="text_encoding">Pengekodan teks</string>
+    <string-array name="url_content_array">
+        <item>Domain (lalai)</item>
+        <item>URL</item>
+        <item>tajuk</item>
+    </string-array>
+    <string name="invert_color">warna terbalikkan</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="tabs">Tabs</string>
+    <string name="theme">app Tema</string>
+    <string name="light_theme">Tema Light</string>
+    <string name="black_theme">Black Theme (AMOLED)</string>
+    <string name="folder">folder Name</string>
+    <string name="action_folder">folder</string>
+    <string name="action_rename">menamakan semula</string>
+    <string name="title_rename_folder">menamakan semula Folder</string>
+    <string name="dialog_folder">Apa yang anda suka lakukan dengan folder ini?</string>
+    <string name="clear_web_storage">Jelas Storage Web</string>
+    <string name="clear_web_storage_exit">storan web Kosongkan apabila keluar</string>
+    <string name="message_web_storage_cleared">storan web dibersihkan</string>
+    <string name="hosts_source">Tuan rumah Fail Ad Menyekat Sumber</string>
+    <string name="settings_adblock">Sekat iklan Tetapan</string>
+    <string name="tabs_in_drawer">Persembahan tab dalam laci navigasi</string>
+    <string name="swap_bookmarks_and_tabs">Menukar bookmark dan tab laci</string>
+    <string name="do_not_track">Permintaan \'Jangan Kesan \'</string>
+    <string name="remove_identifying_headers">Buang Tajuk Mengenal pasti</string>
+    <string name="action_add_to_homescreen">Tambah ke skrin utama</string>
+    <string name="message_added_to_homescreen">Shortcut Ditambah kepada skrin Utama</string>
+    <string name="action_delete_all_bookmarks">Memadam semua penanda halaman</string>
+
+    <string name="faq">FAQ</string>
+    <string name="faq_description">Soalan-soalan yang kerap ditanya</string>
+
+    <!-- debug strings -->
+    <string name="debug_title">Tetapan debug</string>
+    <string name="debug_leak_canary">LeakCanary</string>
+    <string name="app_restart">Sila mulakan semula aplikasi untuk perubahan akan berkuat kuasa.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_open_new_tab">Buka dalam tab baru</string>
+    <string name="dialog_open_background_tab">Buka dalam tab latar belakang</string>
+    <string name="dialog_open_incognito_tab">Buka dalam tab inkognito</string>
+    <string name="dialog_remove_bookmark">Padam storan</string>
+    <string name="dialog_edit_bookmark">Edit penanda buku</string>
+    <string name="dialog_remove_from_history">Alih keluar daripada sejarah</string>
+    <string name="dialog_download_image">muat turun imej</string>
+    <string name="dialog_copy_link">Salin pautan</string>
+    <string name="dialog_rename_folder">menamakan semula folder</string>
+    <string name="dialog_remove_folder">Buang folder</string>
+    <string name="dialog_title_close_browser">Tutup pelayar</string>
+</resources>

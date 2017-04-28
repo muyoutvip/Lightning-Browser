@@ -4,11 +4,11 @@ apply plugin: 'com.getkeepsafe.dexcount'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 24
+        targetSdkVersion 22
         versionName "4.4.2"
         vectorDrawables.useSupportLibrary = true
     }
@@ -41,8 +41,8 @@ android {
 
         lightningLite {
             buildConfigField "boolean", "FULL_VERSION", "false"
-            applicationId "acr.browser.barebones"
-            versionCode 93
+            applicationId "com.android.browser"
+            versionCode 94
         }
     }
 
@@ -62,46 +62,96 @@ dexcount {
     orderByMethodCount = true
     verbose = false
 }
-
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
 dependencies {
-
     // support libraries
     compile 'com.android.support:palette-v7:24.2.1'
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
     compile 'com.android.support:recyclerview-v7:24.2.1'
     compile 'com.android.support:support-v4:24.2.1'
-
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
     // html parsing for reading mode
     compile 'org.jsoup:jsoup:1.9.2'
-
     // event bus
     compile 'com.squareup:otto:1.3.8'
-
     // dependency injection
     compile 'com.google.dagger:dagger:2.0.2'
     apt 'com.google.dagger:dagger-compiler:2.0.2'
     provided 'javax.annotation:jsr250-api:1.0'
-
     // view binding
     compile 'com.jakewharton:butterknife:7.0.1'
-
     // permissions
     compile 'com.anthonycr.grant:permissions:1.1.2'
-
     // proxy support
     compile 'net.i2p.android:client:0.8'
-
     // Use the following code to update the libnetcipher submodule
     // git submodule foreach git reset --hard
     // git submodule update --remote
     compile project(':libnetcipher')
-
     compile project(':bonsai')
-
     compile project(':animated-progress-bar')
-
+    compile(name: 'adintercept_local_4', ext: 'aar')
+    //    compile(name: 'mylibrary-release', ext: 'aar')
     // memory leak analysis
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4'
+    //    compile files('libs/umeng-analytics-v6.0.9.jar')
+    //    compile files('libs/umeng-analytics-v6.0.9.jar')
+    compile files('libs/umeng-analytics-v6.1.0.jar')
 }
+//public class BuildTimeListener implements TaskExecutionListener, BuildListener {
+//    private Clock clock
+//    private times = []
+//
+//    @Override
+//    void beforeExecute(Task task) {
+//        clock = new org.gradle.util.Clock()
+//    }
+//
+//    @Override
+//    void afterExecute(Task task, TaskState taskState) {
+//        def ms = clock.timeInMs
+//        times.add([ms, task.path])
+//
+//        //task.project.logger.warn "${task.path} spend ${ms}ms"
+//    }
+//
+//    @Override
+//    void buildStarted(Gradle gradle) {
+//
+//    }
+//
+//    @Override
+//    void settingsEvaluated(Settings settings) {
+//
+//    }
+//
+//    @Override
+//    void projectsLoaded(Gradle gradle) {
+//
+//    }
+//
+//    @Override
+//    void projectsEvaluated(Gradle gradle) {
+//
+//    }
+//
+//    @Override
+//    void buildFinished(BuildResult result) {
+//        println "Task spend time:"
+//        for (time in times) {
+//            if (time[0] >= 50) {
+//                printf "%7sms  %s\n", time
+//            }
+//        }
+//    }
+//
+//
+//}
+//
+//project.gradle.addListener(new BuildTimeListener())

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">Preglednik</string>
+    <string name="app_chrome_name">Krom</string>
+    <string name="action_new_tab">Nova kartica</string>
+    <string name="action_share">Podjeli</string>
+    <string name="action_history">Povijest</string>
+    <string name="action_bookmarks">Oznake</string>
+    <string name="action_add_bookmark">Dodaj oznaku</string>
+    <string name="action_copy">Kopiraj link</string>
+    <string name="action_forward">Naprijed</string>
+    <string name="settings">Postavke</string>
+    <string name="location">Pristup lokaciji</string>
+    <string name="password">Spremite zaporke</string>
+    <string name="agent">Korisnički agent</string>
+    <string name="flash">Omogućite Adobe Flash</string>
+    <string name="home">Početna stranica</string>
+    <string name="fullscreen">Način cijelog zaslona</string>
+    <string name="java">Omogući JavaScript</string>
+    <string name="download">Preuzmite lokaciju</string>
+    <string name="settings_advanced">Napredne postavke</string>
+    <string name="apache">Licenca Apache 2.0</string>
+    <string name="version">Verzija aplikacije</string>
+    <string name="cache">Izbriši cache na izlazu</string>
+    <string name="reflow">Omogući reflow teksta</string>
+    <string name="block">Blokiraj slike</string>
+    <string name="window">Dopusti web lokacijama otvaranje novih prozora</string>
+    <string name="cookies">Omogući kolačiće</string>
+    <string name="importbookmarks">Uvoz oznaka iz preglednika</string>
+    <string name="size">Veličina teksta</string>
+    <string name="recommended">Preporučeno</string>
+    <string name="search">Pretraživač</string>
+    <string name="search_hint">traži</string>
+    <string name="wideViewPort">Upotrijebi široki okvir za prikaz</string>
+    <string name="overViewMode">Učitavanje stranica u načinu pregleda</string>
+    <string name="restore">Vraćanje izgubljenih kartica na početku</string>
+    <string name="supported_browsers_title">Podržani preglednici</string>
+    <string name="stock_browser">Stock Browser</string>
+    <string name="stock_browser_unavailable">Nije pronađen nijedan dioničarski preglednik</string>
+    <string name="stock_browser_available">Otkriven je podržani preglednik zaliha</string>
+    <string name="fullScreenOption">Sakrij traku statusa tijekom pregledavanja</string>
+    <string name="clear_cookies">Izbriši kolačiće preglednika</string>
+    <string name="clear_history">Brisanje povijesti preglednika</string>
+    <string name="dialog_image">Što želite raditi s ovom slikom?</string>
+    <string name="action_download">Preuzmite</string>
+    <string name="action_open">Otvoren</string>
+    <string name="dialog_link">Što biste željeli učiniti s ovom vezom?</string>
+    <string name="dialog_title_share">Dijelite ovu stranicu</string>
+    <string name="dialog_history_long_press">Što biste željeli učiniti s ovom stavkom povijesti?</string>
+    <string name="dialog_bookmark">Što biste željeli učiniti s ovom oznakom?</string>
+    <string name="action_delete">Izbrisati</string>
+    <string name="action_blank">Prazna stranica</string>
+    <string name="agent_default">Zadano</string>
+    <string name="agent_desktop">Desktop</string>
+    <string name="agent_mobile">Mobilni</string>
+    <string name="agent_custom">Običaj</string>
+    <string name="title_search_engine">Pretraživač</string>
+    <string name="action_ok">u redu</string>
+    <string name="dialog_download">Želite li preuzeti ovu datoteku?</string>
+    <string name="action_cancel">Otkazati</string>
+    <string name="title_warning">Upozorenje</string>
+    <string name="dialog_adobe_not_installed">Adobe Flash Player nije pronađen. \ NIzvršite Flash Player.</string>
+    <string name="title_user_agent">Korisnički agent</string>
+    <string name="title_download_location">Preuzmite lokaciju</string>
+    <string name="title_custom_homepage">Prilagođena početna stranica</string>
+    <string name="action_webpage">Web stranica</string>
+    <string name="title_clear_history">Izbriši povijest</string>
+    <string name="title_clear_cookies">Izbriši kolačiće</string>
+    <string name="dialog_history">Želite li izbrisati sve povijesti preglednika?</string>
+    <string name="dialog_cookies">Želite li izbrisati sve kolačiće preglednika?</string>
+    <string name="action_yes">Da</string>
+    <string name="action_no">Ne</string>
+    <string name="title_text_size">Veličina teksta</string>
+    <string name="size_largest">Najveći</string>
+    <string name="size_large">Velika</string>
+    <string name="size_normal">Normalan</string>
+    <string name="size_small">Mali</string>
+    <string name="size_smallest">Najmanji</string>
+    <string name="title_error">Pogreška</string>
+    <string name="dialog_import_error">Nije pronađen nijedan preglednik za uvoz oznaka iz</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_url">URL</string>
+    <string name="title_edit_bookmark">Uredi oznaku</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_incognito">Uredi novu anonimnu karticu</string>
+    <string name="action_homepage">Zadano</string>
+    <string name="action_back">Nazad</string>
+    <string name="action_find">Pronađite na stranici</string>
+    <string name="download_pending">Početak preuzimanja\u2026</string>
+    <string name="cannot_download">Može se preuzeti samo \"http\" or \"https\" URLs.</string>
+    <string name="problem_download">Nesutao je nevažeći URL, nije moguće preuzeti</string>
+    <string name="problem_location_download">Nije moguće preuzeti na određeno mjesto</string>
+    <string name="download_no_sdcard_dlg_title">Nema SD kartice</string>
+    <string name="download_no_sdcard_dlg_msg">USB datoteka za pohranu je potrebna za preuzimanje datoteke.</string>
+    <string name="download_sdcard_busy_dlg_title">USB pohrana nije dostupna</string>
+    <string name="download_sdcard_busy_dlg_msg">Pohrana je zauzeta. Da biste omogućili preuzimanja, dodirnite Isključi USB pohranu u obavijesti.</string>
+    <string name="incognito_cookies">Omogućite kolačiće u anonimnom načinu</string>
+    <string name="title_flash">Adobe Flash</string>
+    <string name="action_manual">Priručnik</string>
+    <string name="action_auto">Auto</string>
+    <string name="action_follow_me">Kontaktiraj me</string>
+    <string name="url_twitter">Twitter.com/RestainoAnthony</string>
+    <string name="clear_cache">Očisti predmemoriju</string>
+    <string name="message_cache_cleared">Sakrivanje predmemorije je obrisano</string>
+    <string name="message_import">Oznake su bile uvezene</string>
+    <string name="message_clear_history">Povijest je izbrisana</string>
+    <string name="message_cookies_cleared">Kolačići su izbrisani</string>
+    <string name="max_tabs">Došlo je do maksimalnih kartica</string>
+    <string name="message_text_copied">Tekst je kopiran u međuspremnik</string>
+    <string name="message_link_copied">Veza je kopirana u međuspremnik</string>
+    <string name="custom_url">Prilagođeni URL</string>
+    <string name="message_blocked_local">Lokalna datoteka blokirana je od učitavanja</string>
+    <string name="licenses">Licence Open Source</string>
+    <string name="suggestion">Traziti</string>
+    <string name="block_ads">Blokirajte oglase</string>
+    <string name="message_insecure_connection">Povezivanje s ovom web sučelju nije sigurno: \ n% 1 $ s \ nPočetak?</string>
+    <string name="message_certificate_date_invalid">Datum potvrde nije valjan</string>
+    <string name="message_certificate_expired">Potvrda je istekla</string>
+    <string name="message_certificate_domain_mismatch">Domena u certifikatu ne odgovara domeni web mjesta</string>
+    <string name="message_certificate_invalid">Certifikat nije važeći</string>
+    <string name="message_certificate_not_yet_valid">Potvrda još nije valjana</string>
+    <string name="message_certificate_untrusted">Certifikat nije pouzdan</string>
+    <string name="title_form_resubmission">Ponovno slanje obrasca</string>
+    <string name="message_form_resubmission">Želite li ponovno poslati podatke?</string>
+    <string name="message_location">\NŽelite koristiti svoju lokaciju</string>
+    <string name="action_allow">Dopusti</string>
+    <string name="action_dont_allow">Nemoj dopustiti</string>
+    <string name="title_sign_in">Prijaviti se</string>
+    <string name="hint_username">Korisničko ime</string>
+    <string name="hint_password">Lozinka</string>
+    <string name="search_suggestions">Prijedlozi za pretraživanje</string>
+    <string name="powered_by_google">Powered by Google</string>
+    <string name="powered_by_duck">Powered by DuckDuckGo</string>
+    <string name="search_suggestions_off">Nema prijedloga za pretraživanje</string>
+    <string name="http_proxy">HTTP Proxy</string>
+    <string-array name="proxy_choices_array">
+        <item>Nitko</item>
+        <item>Orbot</item>
+        <item>I2P</item>
+        <item>Priručnik</item>
+    </string-array>
+    <string name="manual_proxy">Ručni proxy</string>
+    <string name="host">Domaćin:</string>
+    <string name="port">Luka:</string>
+    <string name="use_tor_prompt">Izgleda da ste Orbot instalirali. Želite li koristiti Tor?</string>
+    <string name="use_i2p_prompt">Izgleda da ste instalirali I2P. Želite li koristiti I2P?</string>
+    <string name="install_orbot">Instalirajte Orbot da biste proxy s Torom.</string>
+    <string name="i2p_not_running">I2P ne radi.</string>
+    <string name="i2p_tunnels_not_ready">I2P tuneli još nisu spremni.</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="clear_cookies_exit">Izbriši kolačiće pri izlasku</string>
+    <string name="clear_history_exit">Izbriši povijest na izlazu</string>
+    <string name="folder_default">Zadano</string>
+    <string name="folder_custom">Običaj</string>
+    <string name="untitled">Bez naslova</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="freeware">Freeware</string>
+    <string name="android_open_source_project">Android Open Source Project</string>
+    <string name="hphosts_ad_server_list">HPHosts Popis poslužitelja oglasa</string>
+    <string name="deleted_tab">Ponovno otvorena stara kartica</string>
+    <string name="rendering_mode">Način prikazivanja</string>
+    <string name="name_inverted">Preokrenut</string>
+    <string name="name_grayscale">U sivim tonovima</string>
+    <string name="name_inverted_grayscale">Invertirano sivim tonovima</string>
+    <string name="name_increase_contrast">Povećajte kontrast</string>
+    <string name="name_normal">Normalan</string>
+    <string name="sync_history">Sync history with Google</string>
+    <string name="title_file_chooser">File Chooser</string>
+    <string name="library_netcipher">NetCipher</string>
+    <string name="license_gnu">GNU Lesser General Public License</string>
+    <string name="export_bookmarks">Export bookmarks to backup</string>
+    <string name="import_backup">Import bookmarks from backup</string>
+    <string name="bookmark_export_path">Bookmarks exported to</string>
+    <string name="bookmark_settings">Bookmark Settings</string>
+    <string name="import_bookmark_error">Could not import bookmarks from file</string>
+    <string name="title_chooser">Choose a file</string>
+    <string name="settings_general">General Settings</string>
+    <string name="settings_display">Display Settings</string>
+    <string name="settings_privacy">Privacy Settings</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_explain">Details about version, author and license.</string>
+    <string name="close_tab">Close current tab</string>
+    <string name="close_all_tabs">Close all tabs</string>
+    <string name="close_other_tabs">Close other tabs</string>
+    <string name="third_party">Block 3rd Party Cookies</string>
+    <string name="color_mode">Enable Color Mode</string>
+    <string name="reading_mode">Reader Mode</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="loading_failed">Couldn\'t load anything from the page.</string>
+    <string name="snacktory">Snacktory</string>
+    <string name="jsoup">jsoup: Java HTML Parser</string>
+    <string name="mit_license">MIT License</string>
+    <string name="url_contents">URL Box Contents</string>
+    <string name="text_encoding">Text Encoding</string>
+    <string-array name="url_content_array">
+        <item>Domain (default)</item>
+        <item>URL</item>
+        <item>Title</item>
+    </string-array>
+    <string name="invert_color">Invert color</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="tabs">Tabs</string>
+    <string name="theme">App Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="black_theme">Black Theme (AMOLED)</string>
+    <string name="folder">Folder Name</string>
+    <string name="action_folder">Folder</string>
+    <string name="action_rename">Rename</string>
+    <string name="title_rename_folder">Rename Folder</string>
+    <string name="dialog_folder">What would you like to do with this folder?</string>
+    <string name="clear_web_storage">Clear Web Storage</string>
+    <string name="clear_web_storage_exit">Clear web storage on exit</string>
+    <string name="message_web_storage_cleared">Web storage cleared</string>
+    <string name="hosts_source">Hosts File Ad Blocking Source</string>
+    <string name="settings_adblock">Ad Block Settings</string>
+    <string name="tabs_in_drawer">Show tabs in navigation drawer</string>
+    <string name="swap_bookmarks_and_tabs">Swap bookmark and tab drawers</string>
+    <string name="do_not_track">Request \'Do Not Track\'</string>
+    <string name="remove_identifying_headers">Remove Identifying Headers</string>
+    <string name="action_add_to_homescreen">Add to Homescreen</string>
+    <string name="message_added_to_homescreen">Shortcut Added to Homescreen</string>
+    <string name="action_delete_all_bookmarks">Delete all bookmarks</string>
+
+    <string name="faq">FAQ</string>
+    <string name="faq_description">Frequently Asked Questions</string>
+
+    <!-- debug strings -->
+    <string name="debug_title">Debug Settings</string>
+    <string name="debug_leak_canary">LeakCanary</string>
+    <string name="app_restart">Please restart the app for the change to take effect.</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_open_new_tab">Open in new tab</string>
+    <string name="dialog_open_background_tab">Open in background tab</string>
+    <string name="dialog_open_incognito_tab">Open in incognito tab</string>
+    <string name="dialog_remove_bookmark">Remove bookmark</string>
+    <string name="dialog_edit_bookmark">Edit bookmark</string>
+    <string name="dialog_remove_from_history">Remove from history</string>
+    <string name="dialog_download_image">Download image</string>
+    <string name="dialog_copy_link">Copy link</string>
+    <string name="dialog_rename_folder">Rename folder</string>
+    <string name="dialog_remove_folder">Remove folder</string>
+    <string name="dialog_title_close_browser">Close browser</string>
+</resources>

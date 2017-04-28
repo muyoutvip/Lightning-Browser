@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lightning</string>
+    <string name="app_name">przeglądarka</string>
+    <string name="app_chrome_name">chrom</string>
     <string name="action_new_tab">Nowa karta</string>
     <string name="action_share">Udostępnij</string>
     <string name="action_history">Historia</string>

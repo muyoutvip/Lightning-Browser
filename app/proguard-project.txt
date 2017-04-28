@@ -24,7 +24,20 @@
 -dontskipnonpubliclibraryclasses
 -dontpreverify
 -verbose
+
+-ignorewarnings
+-dontobfuscate
+-dontoptimize
 -optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+-dontwarn com.tencent.bugly.**
+-keep public class com.tencent.bugly.**{*;}
+
+-keep public class com.coal.** {*;}
+-keep public class com.pingstart.** {*;}
+-keep public class sunlabs.brazil.**{*;}
+-keep public class org.literateprograms.**{*;}
+-keep public class com.muyou.mylibrary.** {*;}
+-keep public class com.tencent.smtt.sdk.**{*;}
 
 -keep public class * extends android.app.Activity
 -keep public class * extends android.app.Application
@@ -35,8 +48,11 @@
 -keep public class * extends android.preference.Preference
 -keep public class com.android.vending.licensing.ILicensingService
 -keep public class acr.browser.lightning.reading.*
--keep class org.lucasr.twowayview.** { *; }
 
+-keep class org.lucasr.twowayview.** { *; }
+-keepattributes Signature
+-keepattributes InnerClasses
+-dontwarn okio.**
 -keepattributes *Annotation*
 -keepclassmembers class ** {
     @com.squareup.otto.Subscribe public *;
@@ -48,6 +64,10 @@
     public static *** v(...);
     public static *** w(...);
     public static *** i(...);
+}
+
+-keep class com.startapp.** {
+      *;
 }
 
 -keep class butterknife.** { *; }
@@ -107,7 +127,16 @@
 # The I2P Java API bundled inside the I2P Android client library contains
 # references to javax.naming classes that Android doesn't have. But those
 # classes are never used on Android, and it is safe to ignore the warnings.
+-dontwarn com.coal.**
 -dontwarn net.i2p.crypto.CertUtil
 -dontwarn org.apache.http.conn.ssl.DefaultHostnameVerifier
-
+-dontwarn com.startapp.**
 -dontwarn org.apache.http.HttpHost
+-dontwarn com.tendcloud.tenddata.**
+-keep class com.tendcloud.** {*;}
+-keep public class com.tendcloud.tenddata.** { public protected *;}
+-keepclassmembers class com.tendcloud.tenddata.**{
+public void *(***);
+}
+-keep class com.talkingdata.sdk.TalkingDataSDK {public *;}
+-keep class com.apptalkingdata.** {*;}

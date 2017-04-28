@@ -16,13 +16,13 @@
     android:focusableInTouchMode="true"
     android:gravity="center">
 
-    <acr.browser.lightning.view.SearchView
+    <com.android.browser.view.SearchView
         android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@null"
         android:gravity="left|center_vertical"
-        android:hint="@string/search_hint"
+        android:hint="Search or type URL"
         android:imeOptions="actionGo"
         android:inputType="textUri"
         android:paddingBottom="1dp"
